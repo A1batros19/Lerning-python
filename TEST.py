@@ -1,5 +1,9 @@
-n=float(input())
-a=float(input())
-from math import *
-s=n*a**2/(4*tan(pi/n))
-print(s)
+m=int(input())
+n=int(input())
+if m<n:
+    for i in range(n, m-1,-1):
+        print(i)
+else:
+    for i in range(n, m):
+        print(i)
+
